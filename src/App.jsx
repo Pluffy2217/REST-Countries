@@ -5,11 +5,6 @@ import Home from "./components/Home"
 
 const  App = () => {
 
-  const [tld, setTld] = useState("about")
-
-  const changeRoute = () => {
-    setTld()
-  }
 
   return (    
     <Routes>
